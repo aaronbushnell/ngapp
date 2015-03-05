@@ -1,0 +1,8 @@
+Hello from {{pageName}}.
+
+<p ng-show="loading">We're loading!</p>
+<p ng-show="noResults">Got nothing!</p>
+
+<div ng-repeat="event in events">
+  {{event.title}}
+</div>
